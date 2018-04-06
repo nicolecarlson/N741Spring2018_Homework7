@@ -1,7 +1,10 @@
 ---
-title: "Homework 6: GLM and LM, prediction"
+title: 'Homework 6: GLM and LM, prediction'
 author: "Nicole Carlson."
-output: html_document
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -206,7 +209,7 @@ plot(allEffects(logisticCESD))
 ```
 Here is the effects plot for this logistic regression. Based on the tight confidence interval and grouping of mcs scores around a cesd_gte16 value of 1 on the plotted line, this plot demonstrates thata mcs scores (especially those between 17 and 33, where there is a clumping of points on the x-axis) appear to be predictive of depression.
 
-My work can be found at github repo: 
+My work can be found at github repo: https://github.com/nicolecarlson/N741Spring2018_Homework6
 
 
 ---
